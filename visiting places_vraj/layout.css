@@ -1,0 +1,268 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.top{
+    background-color: white;
+    height: 50px;
+    position: fixed;
+    width:100%;
+}
+#sign{
+    margin-left: 85%;
+    margin-top: 28px;
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translate(-50%,-50%);
+    animation: animate
+        1s linear infinite;
+}
+@keyframes animate {
+            0%{
+                opacity: 0.1;
+            }
+            50%{
+                opacity: 1.0;
+            }
+            100%{
+                opacity: 0.3;
+            }
+        }
+
+#login{
+    margin-left: 90%;
+    font-size: 25px;
+    margin-top: 15px;
+    position: absolute;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#login:hover{
+    font-size: 27px;
+    box-shadow: 14px 5px 10px rgb(99, 196, 196);
+}
+.logo{
+    position: absolute; 
+    width:200px;
+    height: 50px;
+}
+.logo:hover{
+    box-shadow: 8px -3px 15px rgb(25, 248, 155);
+}
+.mid{
+    
+    height: 500px;
+    width: 100%;
+    border-radius: 9px;
+    position: flex;
+}
+
+input[type=text]{
+    margin-top: -200px;
+    position: relative;
+   margin-left:350px;
+    width: 55%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(92, 91, 91);
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 30px 12px 40px;
+    box-shadow:-4px 8px darkblue;
+    
+}
+input[type=text]:hover{
+    background-color:rgb(255, 255, 255);
+}
+
+h1{
+    margin-top: -80px;
+    position: absolute;
+    margin-left:500px;
+    font-size: 40px;
+    color: rgb(255, 250, 250);
+  
+}
+h1 {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 5px rgb(255, 5, 5), 0px 0px 2px rgb(212, 85, 155);
+  }
+  h1:hover{
+      animation: blur 2.0s ease-out infinite;
+  }
+  
+  @keyframes blur {
+    from {
+      text-shadow:0px 0px 4px #fff,
+        0px 0px 10px #fff, 
+        0px 0px 5px #fff,
+        0px 0px 5px #fff,
+        0px 0px 5px #fff,
+        0px 0px 5px #fff,
+        0px 0px 5px rgb(0, 14, 19),
+        0px 0px 5px #fff,
+        0px 0px 15px #fff,
+        0px 0px 15px rgb(0, 17, 255),
+        0px 0px 15px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 10px #7B96B8,
+        0px 10px 10px #7B96B8,
+        0px 10px 10px #0c461a,
+        0px 10px 10px #7B96B8,
+        0px -10px 10px #7B96B8,
+        0px -10px 10px #2b62a7;
+    }
+  }
+  
+  
+  
+  
+
+#city{
+    text-align: center;
+    text-shadow: 19px -11px 1px rgb(172, 0, 0);
+    font-size: 50px;
+}
+.city{
+    position:relative ;
+    
+}
+#DELHI{
+    margin-left: 40PX;
+    padding: 4PX 14PX 0px 54PX;
+}
+#DELHI:hover{
+    box-shadow:5px 5px 15px rgb(255, 174, 0);
+}
+#UTTARPRADESH{
+    padding: 4PX 54PX 0px 4PX;
+}
+#UTTARPRADESH:hover{
+    box-shadow:5px 5px 15px rgb(0, 195, 255);
+}
+#BIHAR{
+    padding: 4PX 50PX 0px 4PX;
+}
+#BIHAR:hover{
+    box-shadow:5px 5px 15px rgb(255, 0, 34);
+}
+#KOLKATA{
+    padding: 4PX 38PX 0px 4PX;
+}
+#KOLKATA:hover{
+    box-shadow:5px 5px 15px rgb(0, 255, 149);
+}
+.citylink>a{
+    text-shadow: 1px 1px 1px rgb(46, 83, 139);
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    padding: 6PX 12PX 50px 180PX;
+}
+.footer{
+    background-color: rgb(41, 39, 39);
+    padding-bottom: 10px;
+    
+    color:white;
+    font-size: 25px;
+    
+}
+.footer> a{
+    position: relative;
+    padding: 65PX;
+
+}
+.footer>button{ 
+    margin-right: 60px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: cursive;
+   padding: 15px;
+   border-radius: 8px;
+   box-shadow: 2px -2px 1px rgb(223, 55, 92);
+}
+button:hover{
+    
+    box-shadow: 10px 10px 35px rgba(30, 71, 255, 0.603);
+}
+.footer>p{
+    margin-top: 120px;
+    text-align: center ;
+}
+#VRAJ{
+    margin-top: 50px;
+    text-align: right ;
+    margin-right: 50PX;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    text-shadow: 5px 2px 2px red;
+    animation: vraj
+    0.5s step-end 100;
+}
+@keyframes vraj {
+        0%{
+            opacity: 0.1;
+        }
+        50%{
+            opacity: 1.0;
+        }
+        100%{
+            opacity: 0.3;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.list1{
+    width: 55%;
+    height: 200px;
+    margin-left: 350px;
+    box-shadow: 2px 2px 12px #f34e4e;
+    margin-bottom: 20px;
+    display: block;
+}
+.list1:hover{
+    box-shadow: 5px 5px 15px #535151;
+}
+.lotusbox{
+    width: 65%;
+    height: 160px;
+    margin-left: 260px;
+    margin-top:-160px;
+}
+#placename{
+    font: 1.5em ROG FONTS;
+}
+#visit{
+    border-radius: 5px;
+    color:white;
+    font-weight: 600;
+    margin-top: -4px;
+    margin-left: 350px;
+    background-color: rgb(240, 178, 97);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 38px 10px 38px;
+}
+#visit:hover{
+    box-shadow: 2px 2px 15px green;
+}
